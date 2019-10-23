@@ -11,7 +11,9 @@ Framework to handle compensation in SAGA choreographed solutions.
 ### Installing
 
 1. Clone
+```
 git clone https://github.com/luiztoscano/spring-boot-compensation
+```
 
 2. Build
 ```
