@@ -6,7 +6,7 @@ Framework to handle compensation in SAGA choreographed solutions.
 
 ### Prerequites
 * Spring Boot
-* Spring Quartz
+* Quartz
 
 ### Installing
 
@@ -34,12 +34,13 @@ Example:
 
 ```java
 @Compensate(index = 1, ttl = 2, unit = ChronoUnit.SECONDS, fallbackName = "transferFallback", fallbackClass = TransferFallback.class, traceEnabled = true)
-```java
+```
 
 ## Built with
 
 * Maven - https://maven.apache.org
-* Spring Boot Dependencies - https://github.com/spring-projects/spring-boot/blob/master/spring-boot-project/spring-boot-dependencies
+* Spring Boot - https://spring.io/projects/spring-boot
+* Quartz - http://www.quartz-scheduler.org/
 
 ## Versioning
 
