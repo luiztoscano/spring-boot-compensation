@@ -40,7 +40,10 @@ Example:
 
 * Maven - https://maven.apache.org
 * Spring Boot - https://spring.io/projects/spring-boot
-* Quartz - http://www.quartz-scheduler.org/
+* Quartz - http://www.quartz-scheduler.org
+* Sleuth - https://spring.io/projects/spring-cloud-sleuth
+* Zipkin - https://zipkin.io/
+* Micrometer - https://micrometer.io/
 
 ## Versioning
 
