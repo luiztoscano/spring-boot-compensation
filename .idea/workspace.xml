@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b389c60-4344-4903-b8a9-dc917cdb33fd" name="Default Changelist" comment="" />
+    <list default="true" id="0b389c60-4344-4903-b8a9-dc917cdb33fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/Compensation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationAutoConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/annotation/Compensate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/annotation/EnableCompensation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/observability/CompensationMetrics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/serializer/ContextDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/serializer/ContextSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/serializer/JobMapDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/serializer/JobMapSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/spring-boot-compensation-autoconfigure-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-starter-compensation/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-starter-compensation/target/spring-boot-starter-compensation-1.0.0.jar" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-compensation-starter/target/" />
@@ -149,6 +174,9 @@
       <find>get</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -238,6 +266,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -308,6 +337,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -362,7 +392,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2846924" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2846924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -371,7 +401,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
