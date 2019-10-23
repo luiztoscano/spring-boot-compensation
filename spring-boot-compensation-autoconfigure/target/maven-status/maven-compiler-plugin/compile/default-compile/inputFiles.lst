@@ -1,0 +1,15 @@
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/serializer/JobMapSerializer.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationContext.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/observability/CompensationMetrics.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationAutoConfiguration.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/serializer/JobMapDeserializer.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/serializer/ContextSerializer.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationException.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationJob.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/Compensation.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/serializer/ContextDeserializer.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/annotation/EnableCompensation.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationBuilder.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationAspect.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/annotation/Compensate.java
+/Users/luiz.toscano.menezes/git/pessoal/spring-boot-compensation/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationFallback.java
