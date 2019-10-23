@@ -10,10 +10,14 @@ Framework to handle compensation in SAGA choreographed solutions.
 
 ### Installing
 
+1. Clone
+git clone https://github.com/luiztoscano/spring-boot-compensation
+
+2. Build
 ```
 mvn clean install
 ```
-
+3. Add dependency to your project
 ```xml
 <dependency>
 	<groupId>org.saga</groupId>
