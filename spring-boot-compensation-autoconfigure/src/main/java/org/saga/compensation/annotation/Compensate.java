@@ -16,8 +16,6 @@
 
 package org.saga.compensation.annotation;
 
-import org.saga.compensation.CompensationFallback;
-
 import javax.annotation.processing.SupportedSourceVersion;
 import javax.lang.model.SourceVersion;
 import java.lang.annotation.ElementType;
@@ -37,7 +35,6 @@ public @interface Compensate {
     public String el() default "";
     public int ttl() default 0;
     public ChronoUnit unit() default ChronoUnit.MILLIS;
-    public String fallbackName() default "";
-    public Class<? extends CompensationFallback> fallbackClass();
+    public String fallbackBean() default "";
     public boolean traceEnabled() default false;
 }

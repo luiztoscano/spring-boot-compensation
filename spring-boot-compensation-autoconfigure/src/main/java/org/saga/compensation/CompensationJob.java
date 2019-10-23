@@ -20,7 +20,6 @@ import brave.Span;
 import brave.Tracer;
 import brave.Tracing;
 import brave.propagation.TraceContext;
-import org.apache.logging.log4j.util.Strings;
 import org.quartz.Job;
 import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;
@@ -46,27 +45,14 @@ public class CompensationJob implements Job {
     @Autowired
     private Tracer tracer;
 
-    private CompensationFallback getFallbackBean(String fallbackName,
-                                                 Class<? extends CompensationFallback> fallbackClass) throws CompensationException {
-        CompensationFallback fallback = null;
+    private CompensationFallback getFallbackBean(String fallbackName) throws CompensationException {
+        CompensationFallback fallback = applicationContext.getBean(fallbackName, CompensationFallback.class);
 
-        if (Strings.isEmpty(fallbackName) && (fallbackClass == null)) {
-            throw new CompensationException("No fallback informed");
+        if (fallback == null) {
+            throw new CompensationException(String.format("No fallback bean (%s) found", fallbackName));
         }
-        else {
-            if (Strings.isNotEmpty(fallbackName)) {
-                fallback = (CompensationFallback) applicationContext.getBean(fallbackName);
-            }
-            else {
-                fallback = applicationContext.getBean(fallbackClass);
-            }
 
-            if (fallback == null) {
-                throw new CompensationException(String.format("No fallback found (name=%s class=%s)", fallbackName, fallbackClass.getName()));
-            }
-
-            return fallback;
-        }
+        return fallback;
     }
 
     private CompensationContext getContext(JobDataMap map) throws IOException {
@@ -88,7 +74,7 @@ public class CompensationJob implements Job {
         try {
             JobDataMap map = jobExecutionContext.getJobDetail().getJobDataMap();
             CompensationContext ctx = getContext(map);
-            CompensationFallback fallback = getFallbackBean(ctx.getFallbackName(), ctx.getFallbackClass());
+            CompensationFallback fallback = getFallbackBean(ctx.getFallbackBean());
             MDC.setContextMap(ctx.getMdc());
 
             if (ctx.isTrace()) {

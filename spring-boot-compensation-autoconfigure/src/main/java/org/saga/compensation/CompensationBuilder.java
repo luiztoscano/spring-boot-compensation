@@ -29,8 +29,7 @@ public class CompensationBuilder {
     private String key;
     private int ttl;
     private ChronoUnit unit = ChronoUnit.MILLIS;
-    private String fallbackName;
-    private Class<? extends CompensationFallback> fallbackClass;
+    private String fallbackBean;
     private Scheduler scheduler;
     private boolean traceEnabled;
 
@@ -54,13 +53,8 @@ public class CompensationBuilder {
         return this;
     }
 
-    public CompensationBuilder withFallbackName(String fallbackName) {
-        this.fallbackName = fallbackName;
-        return this;
-    }
-
-    public CompensationBuilder withFallbackClass(Class<? extends CompensationFallback> fallbackClass) {
-        this.fallbackClass = fallbackClass;
+    public CompensationBuilder withFallbackBean(String fallbackBean) {
+        this.fallbackBean = fallbackBean;
         return this;
     }
 
@@ -78,8 +72,7 @@ public class CompensationBuilder {
         CompensationContext ctx = new CompensationContext(this.key,
                 this.ttl,
                 this.unit,
-                this.fallbackName,
-                this.fallbackClass,
+                this.fallbackBean,
                 this.args,
                 MDC.getCopyOfContextMap(),
                 this.traceEnabled);

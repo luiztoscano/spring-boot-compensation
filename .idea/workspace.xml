@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b389c60-4344-4903-b8a9-dc917cdb33fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/Compensation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationAutoConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationFallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/CompensationJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/annotation/Compensate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/annotation/EnableCompensation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/observability/CompensationMetrics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/serializer/ContextDeserializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/serializer/ContextSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/serializer/JobMapDeserializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/classes/org/saga/compensation/serializer/JobMapSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/target/spring-boot-compensation-autoconfigure-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-starter-compensation/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-starter-compensation/target/spring-boot-starter-compensation-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/annotation/Compensate.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/annotation/Compensate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="155">
+              <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/annotation/EnableCompensation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="255">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/Compensation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="124">
               <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,28 +72,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-starter-compensation/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/annotation/Compensate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,11 +83,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="588">
+              <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,10 +117,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="365">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -217,16 +207,16 @@
         <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-starter-compensation/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/annotation/EnableCompensation.java" />
-        <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/annotation/Compensate.java" />
-        <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationAspect.java" />
         <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationBuilder.java" />
-        <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationContext.java" />
         <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationException.java" />
         <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationFallback.java" />
-        <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationJob.java" />
         <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/Compensation.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationContext.java" />
+        <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationBuilder.java" />
+        <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationJob.java" />
+        <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/annotation/Compensate.java" />
+        <option value="$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationAspect.java" />
       </list>
     </option>
   </component>
@@ -272,8 +262,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -392,7 +382,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2846924" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28826895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -555,64 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/annotation/EnableCompensation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/Compensation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-starter-compensation/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -627,10 +559,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/Compensation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/annotation/EnableCompensation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/annotation/Compensate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -644,10 +606,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationJob.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -656,8 +629,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="588">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-compensation-autoconfigure/src/main/java/org/saga/compensation/CompensationAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -753,6 +743,7 @@
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
     <option value="clean install" />
+    <option value="clean" />
     <option value="clean spring-boot:repackage" />
   </component>
 </project>

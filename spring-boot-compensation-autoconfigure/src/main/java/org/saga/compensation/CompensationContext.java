@@ -29,23 +29,20 @@ public class CompensationContext implements Serializable {
     private String key;
     private Integer ttl;
     private ChronoUnit unit;
-    private String fallbackName;
-    private Class<? extends CompensationFallback> fallbackClass;
+    private String fallbackBean;
     private Object[] args;
     private Map<String, String> mdc;
     private boolean traceEnabled;
 
     public CompensationContext(String key, Integer ttl, ChronoUnit unit,
-                               String fallbackName,
-                               Class<? extends CompensationFallback> fallbackClass,
+                               String fallbackBean,
                                Object[] args,
                                Map<String, String> mdc,
                                boolean traceEnabled) {
         this.key = key;
         this.ttl = ttl;
         this.unit = unit;
-        this.fallbackName = fallbackName;
-        this.fallbackClass = fallbackClass;
+        this.fallbackBean = fallbackBean;
         this.args = args;
         this.mdc = mdc;
         this.traceEnabled = traceEnabled;
@@ -63,12 +60,8 @@ public class CompensationContext implements Serializable {
         return unit;
     }
 
-    public String getFallbackName() {
-        return fallbackName;
-    }
-
-    public Class<? extends CompensationFallback> getFallbackClass() {
-        return fallbackClass;
+    public String getFallbackBean() {
+        return fallbackBean;
     }
 
     public Object[] getArgs() {

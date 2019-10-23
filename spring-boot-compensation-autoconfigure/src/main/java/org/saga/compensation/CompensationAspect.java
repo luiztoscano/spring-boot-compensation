@@ -62,8 +62,7 @@ public class CompensationAspect {
         String el = annotation.el();
         int ttl = annotation.ttl();
         ChronoUnit unit = annotation.unit();
-        String fallbackName = annotation.fallbackName();
-        Class<? extends CompensationFallback> fallbackClass = annotation.fallbackClass();
+        String fallbackName = annotation.fallbackBean();
         boolean trace = annotation.traceEnabled();
 
         String key = (String) evaluate(index, args, el);
@@ -71,8 +70,7 @@ public class CompensationAspect {
         Compensation compensation = new CompensationBuilder()
                 .withKey(key)
                 .withArgs(args)
-                .withFallbackName(fallbackName)
-                .withFallbackClass(fallbackClass)
+                .withFallbackBean(fallbackName)
                 .withTtl(ttl)
                 .withUnit(unit)
                 .withScheduler(scheduler)
